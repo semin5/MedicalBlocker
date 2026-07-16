@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Medical Blocker",
+  "version": "1.0",
+  "description": "요양급여 메뉴 차단",
+
+  "content_scripts": [
+    {
+      "matches": [
+        "https://medicare.nhis.or.kr/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
