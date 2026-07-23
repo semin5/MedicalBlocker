@@ -12,8 +12,4 @@
 	  <ApplicationIcon>IT.ico</ApplicationIcon>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Content Include="IT.ico" />
-  </ItemGroup>
-
 </Project>
